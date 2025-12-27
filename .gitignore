@@ -1,0 +1,10 @@
+# history & sessions
+.zsh_history
+.zsh_sessions
+
+# OS
+.DS_Store
+
+# caches
+.cache/
+
