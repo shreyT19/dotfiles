@@ -113,7 +113,5 @@ This repository also manages **Cursor editor** configuration to keep the editor 
 
 - macOS only (Homebrew-based)
 - Uses zsh as the default shell
-- Conda and shell history are intentionally disabled
-- Safe to run the installer multiple times
 
 ---
