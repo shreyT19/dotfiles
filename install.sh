@@ -39,6 +39,18 @@ fi
 ln -sf "$DOTFILES_DIR/zsh/zshrc" "$HOME/.zshrc"
 ln -sf "$DOTFILES_DIR/zsh/p10k.zsh" "$HOME/.p10k.zsh"
 
+# ----------------------------
+# Cursor extensions
+# ----------------------------
+if command -v cursor &>/dev/null; then
+  echo "🧩 Installing Cursor extensions..."
+  while read -r ext; do
+    cursor --install-extension "$ext" || true
+  done < "$DOTFILES_DIR/cursor/extensions.txt"
+else
+  echo "⚠️ Cursor CLI not found. Skipping Cursor extensions."
+fi
+
 echo "✅ Dotfiles installed"
 echo "👉 Restart your terminal"
 

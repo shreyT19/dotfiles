@@ -1,0 +1,76 @@
+{
+  "terminal.integrated.env.osx": {},
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "security.workspace.trust.untrustedFiles": "open",
+  "files.autoSave": "afterDelay",
+  "git.confirmSync": false,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false
+  },
+  "editor.unicodeHighlight.allowedCharacters": {
+    "": true
+  },
+  "githubPullRequests.pullBranch": "never",
+  "git.ignoreRebaseWarning": true,
+  "terminal.integrated.env.windows": {},
+  "workbench.editorAssociations": {
+    "*.mp4": "vscode.videoPreview"
+  },
+  "files.autoSaveDelay": 1200,
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.linkedEditing": true,
+  "github.copilot.editor.enableAutoCompletions": true,
+  "workbench.sideBar.location": "right",
+  "explorer.confirmDelete": false,
+  "cursor.cpp.disabledLanguages": ["plaintext", "markdown", "scminput"],
+  "vscode_custom_css.imports": [],
+  "animations.Enabled": true,
+  "animations.Install-Method": "Custom UI Style",
+  "custom-ui-style.external.imports": [
+    "file:///Users/shreyt19/.cursor/extensions/brandonkirbyson.vscode-animations-2.0.7/dist/updateHandler.js"
+  ],
+  "github.copilot.selectedCompletionModel": "gpt-4o-copilot",
+  "console-ninja.featureSet": "Community",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "explorer.confirmDragAndDrop": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "cSpell.enabled": false,
+  "indentRainbow.indicatorStyle": "light",
+  "indentRainbow.lightIndicatorStyleLineWidth": 2,
+  "indentRainbow.ignoreErrorLanguages": ["markdown"],
+  "indentRainbow.colors": [
+    "rgba(255,255,64,0.3)",
+    "rgba(127,255,127,0.3)",
+    "rgba(255,127,255,0.3)",
+    "rgba(79,236,236,0.3)"
+  ],
+  "cursor.general.disableHttp2": true,
+  "terminal.integrated.defaultProfile.osx": "zsh",
+  "models": [
+    {
+      "title": "Code Reviewer",
+      "systemMessage": "You are a senior engineer. Strictly review code for bugs, readability, and performance."
+    },
+    {
+      "title": "Test Writer",
+      "systemMessage": "You generate thorough unit and integration tests for given code."
+    }
+  ],
+  "cursor.composer.shouldAllowCustomModes": true,
+  "cursor.composer.usageSummaryDisplay": "always",
+  "window.confirmSaveUntitledWorkspace": false,
+  "go.toolsManagement.autoUpdate": true,
+  "claudeCode.selectedModel": "claude-sonnet-4-5-20250929",
+  "claudeCode.preferredLocation": "panel",
+  "python.languageServer": "None",
+  "cursorpyright.disableLanguageServices": true
+}

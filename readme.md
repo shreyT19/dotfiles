@@ -84,6 +84,18 @@ Homebrew will be installed automatically if missing.
 
 ---
 
+## 🧠 Cursor Configuration
+
+This repository also manages **Cursor editor** configuration to keep the editor consistent across machines.
+
+### What’s included
+
+- `settings.json`
+- `keybindings.json`
+- curated list of extensions
+
+---
+
 ## 🎨 Customization
 
 - Prompt configuration: `zsh/p10k.zsh`
@@ -105,23 +117,3 @@ Homebrew will be installed automatically if missing.
 - Safe to run the installer multiple times
 
 ---
-
-## 📄 License
-
-MIT
-
-````
-
----
-
-### ✅ What to do next
-
-1. Replace `YOUR_USERNAME` with your GitHub username
-2. Save as `README.md`
-3. Commit & push:
-
-```bash
-git add README.md
-git commit -m "Add README with installation steps"
-git push
-````
