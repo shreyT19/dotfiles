@@ -115,3 +115,6 @@ This repository also manages **Cursor editor** configuration to keep the editor 
 - Uses zsh as the default shell
 
 ---
+
+## Crezi Extension Links
+- https://www.youtube.com/watch?v=3NzCBIcIqD0
